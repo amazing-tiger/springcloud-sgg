@@ -1,5 +1,5 @@
 server:
-  port: 8802
+  port: 8803
 
 spring:
   application:
@@ -22,7 +22,6 @@ spring:
           binder: defaultRabbit #设置要绑定的消息服务的具体设置
           group: atguiguB
 
-
 eureka:
   client:
     service-url:
@@ -30,5 +29,5 @@ eureka:
   instance:
     lease-expiration-duration-in-seconds: 5 #如果现在超过了5秒的间隔
     lease-renewal-interval-in-seconds: 2 #设置心跳的时间间隔
-    instance-id: receive-8802.com
+    instance-id: receive-8803.com
     prefer-ip-address: true #访问的路径变为IP地址
